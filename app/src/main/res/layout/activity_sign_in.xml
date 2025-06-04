@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/e529ce63b0e351f18593267ba6901cf8">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/myCardView"
+        android:layout_width="325dp"
+        android:layout_height="400dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp"
+        android:backgroundTint="#BBDFC9B5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp" />
+
+    <TextView
+        app:icon="@drawable/father"
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back."
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_marginTop="110dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="39sp"/>
+
+    <Button
+        app:icon="@drawable/social"
+        android:id="@+id/google"
+        android:layout_centerHorizontal="true"
+        android:layout_width="280dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/t1"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="15dp"
+        android:backgroundTint="#D2B498"
+        android:textColor="@color/black"
+        app:iconTint="@color/black"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Continue with Google"/>
+
+    <Button
+        android:textColor="@color/black"
+        app:icon="@drawable/apple"
+        android:id="@+id/apple"
+        android:textStyle="bold"
+        android:layout_width="280dp"
+        app:iconTint="@color/black"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@id/google"
+        android:layout_height="70dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#D2B498"
+        android:textSize="18sp"
+        android:text="Continue with Apple"/>
+
+    <Button
+        android:textColor="@color/black"
+        app:icon="@drawable/email"
+        android:id="@+id/email"
+        android:layout_width="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="70dp"
+        android:layout_below="@id/apple"
+        android:layout_marginLeft="15dp"
+        android:backgroundTint="#D2B498"
+        app:iconTint="@color/black"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Continue with Email"/>
+
+    <Button
+        android:textColor="@color/black"
+        app:icon="@drawable/facebook"
+        android:id="@+id/fb"
+        android:layout_width="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="70dp"
+        android:textStyle="bold"
+        app:iconTint="@color/black"
+        android:layout_below="@id/email"
+        android:layout_marginLeft="15dp"
+        android:backgroundTint="#D2B498"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="Continue with Facebook"/>
+
+    <Button
+        android:layout_below="@id/fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b4"
+        android:backgroundTint="@android:color/transparent"
+        android:text="@string/bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#424242"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:layout_below="@id/fb"
+        android:layout_marginTop="100dp"
+        android:text="By proceeding, you agree to our"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t3"
+        android:layout_marginTop="640dp"
+        android:text="Terms &amp; Conditions"
+        android:textColor="#424242"
+        android:textSize="17sp"
+        android:textStyle="italic"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

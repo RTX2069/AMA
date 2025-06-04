@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">AMA</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="last_updated_march_22_2025">Last Updated: March 22 2025</string>
+    <string name="_1_use_of_the_app">1. Use of the App</string>
+    <string name="_1_1_you_must_be_at_least_15_years_old_to_use_ama">1.1 You must be at least 15 years old to use AMA.</string>
+    <string name="_1_2_you_agree_to_use_ama_only_for_lawful_purposes_and_in_accordance_with_these_terms">1.2 You agree to use AMA only for lawful purposes and in accordance with these Terms.</string>
+    <string name="_1_3_we_reserve_the_right_to_suspend_or_terminate_accounts_that_violate_our_policies">1.3 We reserve the right to suspend or terminate accounts that violate our policies.</string>
+    <string name="_2_user_accounts">2. User Accounts</string>
+    <string name="_2_1_you_are_responsible_for_maintaining_the_security_of_your_account">2.1 You are responsible for maintaining the security of your account.</string>
+    <string name="_2_2_you_must_provide_accurate_and_complete_information_during_registration">2.2 You must provide accurate and complete information during registration.</string>
+    <string name="_2_3_sharing_your_account_with_others_is_prohibited">2.3 Sharing your account with others is prohibited.</string>
+    <string name="_3_privacy_and_data_collection">3. Privacy and Data Collection</string>
+    <string name="_3_1_ama_collects_and_processes_user_data_as_outlined_in_our_privacy_policy">3.1 AMA collects and processes user data as outlined in our Privacy Policy.</string>
+    <string name="_3_2_we_do_not_sell_or_share_your_personal_information_with_third_parties_without_consent_except_as_required_by_law">3.2 We do not sell or share your personal information with third parties without consent, except as required by law.</string>
+    <string name="_4_prohibited_activities">4. Prohibited Activities</string>
+    <string name="violate_any_laws_or_regulations_n_upload_harmful_or_inappropriate_content_n_use_bots_or_automated_scripts_to_access_ama_n_attempt_to_hack_exploit_or_interfere_with_the_app_s_functionality">- Violate any laws or regulations.\n- Upload harmful or inappropriate content.\n- Use bots or automated scripts to access AMA.\n- Attempt to hack, exploit, or interfere with the App’s functionality.</string>
+    <string name="_5_intellectual_property">5. Intellectual Property</string>
+    <string name="_5_1_ama_and_its_content_logos_trademarks_software_etc_are_owned_by_ama_or_licensed_to_us">5.1 AMA and its content (logos, trademarks, software, etc.) are owned by AMA or licensed to us.</string>
+    <string name="_5_2_you_may_not_copy_modify_or_distribute_any_part_of_ama_without_our_written_consent">5.2 You may not copy, modify, or distribute any part of AMA without our written consent.</string>
+    <string name="set_preferences">SET PREFERENCES</string>
+    <string name="parental_control">PARENTAL CONTROL</string>
+    <string name="enabling_will_limit_the_entire_screen_besides_chosen_emergency_apps_instead_of_sending_a_friendly_reminder_will_require_a_password_to_disable">Enabling will limit the entire screen (Besides chosen Emergency Apps) instead of sending a friendly reminder. Will require a password to disable.</string>
+    <string name="confirm">Save Changes</string>
+    <string name="choose_emergency_apps">CHOOSE EMERGENCY APPS</string>
+    <string name="parental_password">PARENTAL PASSWORD</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password1">Password</string>
+    <string name="bold">No Account? <b>Create One!</b></string>
+    <string name="termsa"><b> to AMA - Anti Mobile Addiction App.</b> \nBy using this app, you agree to the following terms and conditions:
+            \n\n
+<b>Acceptance of Terms</b>\n\n
+   By downloading and using the AMA App, you agree to abide by the terms and conditions set forth in this document. If you do not agree to these terms, please do not use the app.
+\n\n
+<b>Use of the App</b>\n
+   You are granted a non-transferable, non-exclusive license to use the app for personal use only. You agree to not misuse or exploit the app for any illegal, harmful, or unauthorized purposes.
+\n\n
+<b>Privacy and Data Collection</b>\n
+   AMA may collect personal information, such as usage data and statistics, to improve the app\'s functionality. Please review our Privacy Policy for more details on how we handle your data.
+\n\n
+<b>Limitation of Liability</b>\n
+   AMA will not be liable for any direct, indirect, incidental, or consequential damages arising from your use of the app. You use the app at your own risk.
+\n\n
+<b>Termination of Use</b>\n
+   We reserve the right to suspend or terminate your access to the app at any time without notice for violations of these terms and conditions.
+\n\n
+<b>Modifications</b>\n
+   AMA reserves the right to modify, update, or discontinue the app at any time without prior notice. It is your responsibility to stay informed about any changes.
+\n\n
+<b>Governing Law</b>\n
+   These terms and conditions are governed by the laws of the Philippines. Any disputes will be resolved in the appropriate courts of the Philippines.
+\n\n
+<b> Contact Us</b>\n
+   If you have any questions or concerns about these terms, please contact us at AMA@gmail.com."</string>
+    <string name="continue_without_an_account"> <b>Continue without an account</b></string>
+    <string name="TERMSSS"><u>Terms and Conditions.</u></string>
+
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalActivity"
+    android:background="@drawable/e529ce63b0e351f18593267ba6901cf8"
+    android:fitsSystemWindows="true">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/myCardView1"
+        android:layout_width="155dp"
+        android:layout_height="175dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/starttime"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#BBDFC9B5"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/myCardView2"
+        android:layout_width="155dp"
+        android:layout_height="175dp"
+        android:layout_marginLeft="225.8dp"
+        android:layout_below="@id/stoptime"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#BBDFC9B5"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/b3"
+        android:id="@+id/myCardView3"
+        android:layout_width="365dp"
+        android:layout_height="230dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#BBDFC9B5"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="0dp" />
+
+    <Button
+        android:layout_marginTop="340dp"
+        android:layout_below="@id/info"
+        android:id="@+id/b1"
+        android:layout_width="350dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:text="START TRACKING"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="#D2B498"
+        android:textSize="25sp"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"/>
+
+    <Button
+        android:layout_marginTop="430dp"
+        android:layout_below="@id/info"
+        android:id="@+id/b2"
+        android:layout_width="350dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:text="STOP TRACKING"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:backgroundTint="#D2B498"
+        android:textSize="25sp"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"/>
+
+    <Button
+        android:drawableLeft="@drawable/setrtings"
+        android:id="@+id/b3"
+        android:layout_width="350dp"
+        android:layout_height="66dp"
+        android:backgroundTint="#D2B498"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:text="PREFERENCES"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"/>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@id/starttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Time"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/info"
+        android:layout_marginLeft="25dp"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"/>
+
+    <!-- Stop Time -->
+
+    <NumberPicker
+        android:layout_marginTop="25dp"
+        android:id="@+id/startAmPmPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/starttime"
+        android:layout_toRightOf="@id/startHourPicker" />
+
+    <NumberPicker
+        android:id="@+id/startHourPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/starttime"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="35dp"/>
+
+    <TextView
+        android:id="@id/stoptime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Time"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="233dp"
+        android:textColor="@color/black"
+        android:layout_below="@id/info"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"/>
+
+    <NumberPicker
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"
+        android:id="@+id/stopHourPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_below="@+id/stoptime"/>
+
+    <NumberPicker
+        android:layout_marginTop="25dp"
+        android:id="@+id/stopAmPmPicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/stopHourPicker"
+        android:textColor="@color/black"
+        android:layout_below="@+id/stoptime"/>
+
+    <TextView
+        android:id="@id/info"
+        android:layout_centerHorizontal="true"
+        android:layout_width="330dp"
+        android:layout_height="190dp"
+        android:layout_below="@id/b3"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Press START TRACKING to begin monitoring your screen usage. You'll be redirected to the home screen while tracking runs in the background. AMA will send you a message everytime you reach the intended interval. "
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+</RelativeLayout>

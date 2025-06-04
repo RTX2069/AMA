@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/terms_and_conditions_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms &amp; Conditions"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#114090"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Terms content box -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:background="#F2F2F2"
+            android:orientation="vertical"
+            android:elevation="2dp"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTintMode="src_in"
+            android:clipToPadding="false"
+            android:backgroundTint="#F2F2F2">
+
+            <TextView
+                android:id="@+id/terms_and_conditions_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="6dp"
+                android:text="@string/termsa"
+                android:textSize="16sp"
+                android:textColor="#333333" />
+        </LinearLayout>
+
+        <!-- Accept button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/b1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="I Accept the Terms &amp; Conditions"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#114090"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="8dp"
+            android:elevation="4dp" />
+    </LinearLayout>
+</ScrollView>
